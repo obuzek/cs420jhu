@@ -1,0 +1,30 @@
+
+*** compress.c/h
+
+  Based functions to compress directories and files name path name
+
+*** serialcompress.c
+
+  Main function that implements this on one thread.
+  Give this away to the students.
+
+*** parallelcompress.c
+
+  I didn't include this.  You need to write this.
+
+
+
+To make the program serialcompress:
+
+  gcc serialcompress.c compress.c -lz -o serialcompress
+
+-lz links the zlib library for compression
+
+
+To build parallel compress:
+
+  gcc -fopenmp parallelcompress.c compress.c -lz
+  
+You must use the fopenmp directive to activate the OpenMP environment,
+
+

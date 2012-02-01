@@ -1,0 +1,5 @@
+Source code distributed to students in the CS320 and CS420 classes.
+
+*** ompcompress
+  
+  First assignment.  Compress a directory tree using OpenMP.
